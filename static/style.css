@@ -1,0 +1,76 @@
+/* 전체 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 컨테이너 */
+.container {
+    margin: 10% auto;
+    width: 60%;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 타이틀 */
+.title {
+    font-size: 2.5em;
+    color: #555;
+}
+
+/* 강조 텍스트 */
+.highlight {
+    color: #9b59b6; /* Lilac 색상 */
+}
+
+/* 부제목 */
+.subtitle {
+    font-size: 1.4em;
+    color: #777;
+}
+
+/* 설명 */
+.description {
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px 0;
+}
+
+/* 버튼 스타일 */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #9b59b6; /* Lilac */
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #7e3a9d; /* 더 짙은 Lilac */
+}
+
+/* 연락처 섹션 */
+.contact-title {
+    font-size: 1.5em;
+    margin-top: 30px;
+    color: #444;
+}
+
+a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
